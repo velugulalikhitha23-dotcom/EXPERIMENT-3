@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1> Event Registration</h1>
+        <p class="subtitle">Please fill in your details to join the event</p>
+
+        <form>
+
+            <div class="form-grid">
+
+                <div class="field">
+                    <label>Name</label>
+                    <input type="text" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="field">
+                    <label>Email</label>
+                    <input type="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="field">
+                    <label>Phone</label>
+                    <input type="tel" placeholder="Enter your phone number">
+                </div>
+
+                <div class="field">
+                    <label>Event Type</label>
+                    <select required>
+                        <option value="">Select an event</option>
+                        <option>Workshop</option>
+                        <option>Sports Meet</option>
+                        <option>Cultural Program</option>
+                        <option>Community Meetup</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="preferences">
+                <label>Preferences</label>
+
+                <div class="checkbox-group">
+                    <label><input type="checkbox"> Need refreshments</label>
+                    <label><input type="checkbox"> Bring a guest</label>
+                    <label><input type="checkbox"> Receive updates via email</label>
+                </div>
+            </div>
+
+            <button type="submit" class="btn">Submit Registration</button>
+
+        </form>
+    </div>
+
+</body>
+</html>
